@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="all" href="orden.css">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="Logo">
+            <img src="sevime.png" alt="">
+            <span>Servicio y Venta de Insumos Médicos Especializados, S.A. De C.V.</span>
+        </div>
+        <div class="title">ORDEN DE SERVICIO</div>
+        <div class="address">
+            <p>Av. Paseo de las Palmas no. 1345 Int. 1</p>
+            <p>Col. Lomas de Chapultepec, II sección</p>
+            <p>alc.<sup>ia</sup> Miguel Hidalgo, C.P. 11000, Ciudad de México.</p>
+            <p>Tel.: (55) 5589-5120</p>
+            <p>e-mail: licitaciones@sevime.com, servicio@sevime.com</p>
+            <p>RFC: SVI060914I96</p>                               
+            <p class="url">www.sevime.com</p>
+        </div>
+    </header>
+
+    <main>
+        <table cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr class="f1">
+                    <th class="c1">
+                        Nombre del cliente o Institución
+                    </th>
+                    <th class="c2">
+                        ORDEN DE SERVICIO
+                    </th>
+                </tr>
+
+                <tr class="f2">
+                    <td class="c1">
+                        <p class="dynamic" id="client-name"></p>
+                        <p class="dynamic" id="client-address"></p>
+                    </td>
+                    <td class="c2 dynamic" id="id">
+                        FOLIO DINAMICO
+                    </td>
+                </tr>
+
+                <tr class="f3">
+                    <th class="c1">
+                        E-mail:
+                    </th>
+                    <td class="c2 dynamic" id="email"></td>
+                    <th class="c3">
+                        Teléfono:
+                    </th>
+                    <td class="c4 dynamic" id="telephone"></td>
+                    <th class="c5">
+                        Fecha
+                    </th>
+                </tr>
+
+                <tr class="f4">
+                    <td class="c1">IMSS</td>
+                    <td class="c2">ISSSTE</td>
+                    <td class="c3">SSA</td>
+                    <td class="c4">Gob. del Edo.</td>
+                    <td class="c5">Privado</td>
+                    <td class="c6 dynamic" id="date"></td>
+                </tr>
+
+                <tr class="f5">
+                    <th class="c1 ">
+                        Tipo de servicio
+                    </th>
+                    <th class="c2 ">
+                        Datos del equipo
+                    </th>
+                </tr>
+
+                <tr class="f6">
+                    <td>Mantenimiento preventivo</td>
+                    <td>Mantenimiento correctivo</td>
+                    <td>Instalación y puesta en marcha</td>
+                    <td>Entrega</td>
+                    <td>Capacitación</td>
+                    <td class="subtable">
+                        <div class="subrow">
+                            <div class="th">Nombre:</div>
+                            <div class="td" id="equipment"></div>
+                        </div>
+                        <div class="subrow b-top">
+                            <div class="th">Marca:</div>
+                            <div class="td" id="brand"></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="f7">
+                    <th class="c1">Falla reportada</th>
+                    <th class="c2 text-start">Modelo:</th>
+                    <td class="c3 dynamic" id="model"></td>
+                </tr>
+
+                <tr class="f8">
+                    <td class="dynamic" id="failure">GIGANTE</td>
+                    <td class="subtable">
+                        <div class="subrow">
+                            <div class="th">No. de Serie:</div>
+                            <div class="td dynamic" id="serial"></div>
+                        </div>
+                        <div class="subrow b-top-bottom">
+                            <div class="th">Localización:</div>
+                            <div class="td dynamic" id="location"></div>
+                        </div>
+                        <div class="subrow">
+                            <div class="th">Contrato:</div>
+                            <div class="td dynamic" id="contract"></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="f9">
+                    <th class="c1">Hora de inicio:</th>
+                    <td class="dynamic c2" id="time-start"></td>
+                    <th class="c3">Hora de fin:</th>
+                    <td class="dynamic c4" id="time-end"></td>
+                    <th class="c5 text-start">Inventario:</th>
+                    <td class="dynamic c6" id="inventary"></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <section>
+        <table>
+            <tbody>
+                <tr class="singleRow">
+                    <th>Descripción del trabajo realizado</th>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <article>
+        <table>
+            <tbody>
+                <tr>
+                    <th>No. de Parte</th>
+                    <th>Descripción</th>
+                    <th>Cantidad</th>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+
+    <footer>
+        <div class="signatures">
+            <div class="employee">
+                <div class="title th">Responsable de servicio</div>
+                <div class="signature"></div>
+            </div>
+
+            <div class="maintenance">
+                <div class="title th">
+                    <p>Encargado del área</p>
+                    (Nombre, cargo, firma)
+                </div>
+                <div class="signature"></div>
+            </div>
+
+            <div class="user">
+                <div class="title th">
+                    <p>Usuario</p>
+                    (Nombre, cargo, firma)
+                </div>
+                <div class="signature"></div>
+            </div>
+        </div>
+
+        <div class="tags">
+            <div>F-SGC-045</div>
+            <div>Vigencia a partir del 2018</div>
+            <div>Rev.1 </div>
+            <div>Página 1 de 1</div>
+        </div>
+
+        <div class="note">
+            "El personal de SEVIME se compromete a verificar, proteger y salvaguardar la propiedad del cliente. En caso de que se detecte
+            alguna pérdida, deterioro o daño, antes de hacer el mantenimiento, se notificará al personal responsable del hospital.""
+        </div>
+    </footer>
+</body>
+
+</html>
